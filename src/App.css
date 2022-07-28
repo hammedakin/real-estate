@@ -1,0 +1,1045 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* Global */
+
+body {
+  background-color: #f5f3f3 !important;
+  margin: 0 auto;
+  color: #393939 !important;
+  line-height: 1.6;
+  /* font: 400 15px/28px "Poppins", sans-serif!important; */
+  font-family: 400 15px/28px "Montserrat", sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600 !important;
+}
+
+/* Scrollbar  */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  border: none;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+  background: #fc4746;
+  height: 10px;
+  border-radius: 100px;
+}
+
+/* Scrollbar  */
+
+/* Scroll To Top Button  */
+#myBtn {
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: -5px;
+  z-index: 99;
+}
+
+.scrollup .box-icon {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 0.2rem;
+}
+.scrollup .box-icon:hover {
+  background-color: red; /* Add a dark-grey background on hover */
+}
+/* Scroll To Top Button  */
+
+/* Page Not Found */
+
+.pagenotfound {
+  margin: 8rem 0;
+}
+
+.pagenotfound .gif {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+  text-indent: 10000px;
+}
+
+.pagenotfound .giffy {
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  max-height: 450px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 1;
+  user-select: none;
+  border-radius: 70% 80% 60% 60%;
+  border-style: double;
+  border-color: #cf1414;
+}
+
+.pagenotfound button {
+  margin-top: 3rem;
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+/* Page Not Found */
+
+/* Spinner  */
+.spinner-border {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+/* Spinner  */
+
+/* Global */
+
+/* Navbar */
+nav {
+  background-color: #0f0f0fec !important;
+  transition: 0.5s ease !important;
+}
+
+nav .navbar-brand {
+  width: 15% !important;
+  border-radius: 20% !important;
+}
+
+nav img {
+  border-radius: 20px !important;
+}
+
+.active1 {
+  background-color: #fc4646d0 !important;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem !important;
+  transition: 0.1s ease !important;
+}
+
+.active2 {
+  background-color: #fc4646d0 !important;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem !important;
+  transition: 0.1s ease !important;
+}
+
+nav button.navbar-toggler {
+  background-color: none !important;
+}
+
+.navbar-toggler-icon {
+  background: none !important;
+}
+
+nav .red {
+  background-color: #cf1414 !important;
+}
+
+nav .nav-item a {
+  color: #fff;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+}
+
+nav .nav-item a:hover {
+  border: #fc4646d0 solid 2px !important;
+  border-radius: 2rem;
+  /* padding: .5rem 2rem  !important; */
+  transition: 0.1s ease !important;
+}
+
+nav .dropdown-menu a:hover {
+  border: #fc4646d0 solid 1px !important;
+  border-radius: 0.3rem;
+  transition: 0 !important;
+}
+
+nav .btn {
+  text-transform: uppercase !important;
+  padding: 0.8rem 1.3rem !important;
+  border: #fff solid 2px !important;
+  border-radius: 5px;
+  width: 9rem !important;
+  color: #ffffff;
+}
+nav .btn:hover {
+  background-color: #ffffff !important;
+  transition: 0.1s ease !important;
+}
+
+/* Navbar */
+
+/* HomePage */
+
+/* Showcase */
+.showcase {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#0000008c, #0000008c),
+    url(./Components/HomePage/img/IMG_8080.JPG) no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.showcase .showcase-content {
+  margin-top: 30vh;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.showcase .showcase-content h5 {
+  font-weight: 100 !important;
+}
+
+.showcase label {
+  color: #fff !important;
+}
+
+.showcase .propertysearch {
+  margin-top: 2rem !important;
+}
+
+/* Showcase */
+
+/* View More Button  */
+.view-btn button {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #fff;
+  padding: 1.2rem 5rem !important;
+  margin-top: 2rem !important;
+}
+/* View More Button  */
+
+/* What We Do */
+.whatwedo {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.whatwedo .here {
+  border-bottom: 5px solid #fc4746;
+  border-radius: 3px;
+}
+
+.whatwedo .card {
+  border-radius: 15px;
+  margin-top: 4rem !important;
+}
+
+.whatwedo .card-footer {
+  color: #ffffff;
+  background-color: #fc4746;
+  border-radius: 0 0 15px 15px !important;
+  padding: 1.3rem 0 !important;
+}
+
+/* What We Do */
+
+/* How It Works  */
+.howitworks {
+  padding: 5rem 0;
+  background-color: #fac5b840;
+}
+
+.howitworks .abulesowo {
+  color: #fc4746;
+}
+
+.howitworks .works {
+  border-bottom: 5px solid #fc4746;
+  border-radius: 3px;
+}
+
+.howitworks .card1 {
+  margin: 5rem 0;
+}
+
+.howitworks .card2 {
+  margin: 5rem 0;
+}
+
+.howitworks h6 {
+  max-width: 560px !important;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+/* How It Works  */
+
+/* HomePage */
+
+/* COLE’S LAND SCHEME (C.L.S)  */
+
+.cls {
+  margin-top: 8rem;
+}
+
+.clsh3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center !important;
+  margin-top: 3rem;
+  color: #fc4746;
+}
+.cls .card {
+  background-color: transparent !important;
+  border: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* COLE’S LAND SCHEME (C.L.S)  */
+
+/* Blog Page  */
+.blogpage {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+/* Blog Showcase  */
+.blogshowcase {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#000000c7, #0000008c),
+    url(./Components/BlogPage/img/blog.jpg) no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  height: 70vh !important;
+  overflow-x: hidden;
+}
+
+.blogshowcase .showcase-content {
+  margin-top: 30vh;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.blogshowcase .showcase-content h5 {
+  font-weight: 100 !important;
+}
+
+/* Blog Showcase  */
+
+.blog {
+  margin-top: 5rem;
+  /* margin-bottom: 3rem; */
+  background-color: #fac5b840;
+  padding: 5rem 0.5rem;
+}
+
+.blog h5 {
+  color: #fc4746;
+  text-transform: uppercase !important;
+}
+
+.header {
+  border-radius: 2rem !important;
+}
+
+.blogpost {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background-color: #fff;
+}
+
+.blogpost .crumbs {
+  /* background: linear-gradient( ) !important ; */
+  background: linear-gradient(to right, #000000f8, #0000006e),
+    url(./Components/HomePage/img/IMG_8080.JPG) no-repeat center/cover;
+  color: #fff !important;
+  padding: 0.5rem;
+}
+
+.blogpost h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 3rem;
+}
+
+.blogpost pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* Blog Post  */
+
+/* Property Page  */
+
+/* Property Search  */
+
+.propertysearch {
+  margin: 8rem 0 2rem 0;
+}
+
+.propertysearch .form-control {
+  border: #fff !important;
+  color: #000 !important;
+}
+
+.propertysearch .form-control:focus {
+  color: #fff;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(1 1 1 / 0%) !important;
+}
+
+.propertysearch span {
+  background-color: transparent;
+  border-radius: 0 0 0 50px !important;
+  margin: 0 !important;
+}
+
+.propertysearch a {
+  background-color: #fc4746;
+  border-radius: 0 0 0 50px !important;
+  margin: 0 !important;
+}
+
+.propertysearch box-icon {
+  padding: 0 3rem !important;
+}
+
+.propertysearch .drop-down {
+  border: 1px solid #fc4746 !important;
+}
+
+.propertysearch button {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+/* Property Search  */
+
+/* All Property  */
+.allproperties {
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.allproperties h5 {
+  color: #fc4746;
+  text-transform: uppercase !important;
+}
+
+.allproperties .card {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.allproperties .card {
+  border-radius: 15px;
+  /* margin-top: 4rem !important; */
+}
+.allproperties .card .first {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.allproperties .card img.card-img-top {
+  height: 20rem;
+  object-fit: cover;
+}
+
+.allproperties .action-button {
+  position: relative;
+  z-index: 15 !important;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+
+/* Hot Deals Styles  */
+
+.allproperties .mask1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.allproperties .deals {
+  margin-left: 15px !important;
+  background: white !important;
+  width: fit-content;
+  padding: 0.2rem;
+  border-radius: 0.2rem !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+}
+
+.allproperties .carousel-control-prev-icon,
+.allproperties .carousel-control-next-icon {
+  background-color: #ff330052;
+  border-radius: 100% !important;
+  border: #ff3500 solid 1px;
+  z-index: 10 !important;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+/* Hot Deals Styles  */
+
+.allproperties .card-body {
+  transform: translateY(-10px);
+  padding: 0 1.25rem !important;
+}
+
+.allproperties .action-icon {
+  padding: 0.7rem;
+  background-color: #fc4746;
+  border-radius: 50%;
+  box-shadow: -1px 5px 5px #502d2d;
+  transition: 0.15s ease;
+}
+
+.allproperties .action-icon:hover {
+  background-color: #bd1515;
+  transition: 0.15s ease;
+}
+
+.allproperties .description {
+  font-size: 14px;
+}
+
+.allproperties .amount {
+  font-size: 15px;
+  font-weight: 600;
+}
+.allproperties .address {
+  font-size: 12px;
+}
+
+.allproperties .add-ons {
+  font-size: 14px;
+}
+
+.allproperties .add-ons img {
+  width: 10% !important;
+}
+
+.allproperties li {
+  list-style: none !important;
+}
+.allproperties .card-footer {
+  color: #ffffff;
+  background-color: #fc4746;
+  border-radius: 0 0 15px 15px !important;
+  padding: 1.3rem 0 !important;
+}
+
+.categories .card {
+  padding: 3rem 1rem !important;
+}
+
+.categories .card {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#0000007e, #0000007e),
+    url(./Components/HomePage/img/background.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* All Property  */
+
+/* Properties  */
+.property {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.property .card {
+  background-color: #fac5b840;
+}
+
+.property button {
+  background-color: #fc4746;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.property .description {
+  font-size: 15px;
+}
+
+.property .amount {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.property .address {
+  font-size: 15px;
+}
+
+.property .add-ons {
+  padding: 0rem 0;
+  font-size: 15px;
+}
+
+.property pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.property ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.property li {
+  padding-top: 1rem;
+}
+
+.property li::before {
+  content: "  ";
+  font-size: 20px;
+  color: #fc4746;
+}
+
+.property .boxicons .box-icon {
+  /* margin: 1rem ; */
+  /* padding: 0.4rem; */
+  text-align: center !important;
+  background-color: red;
+  /* border-radius: 50%; */
+  transition: 0.15s ease;
+}
+
+.property .boxicons .box-icon:hover {
+  background-color: yellow;
+}
+
+/* Properties  */
+
+/* Property Page  */
+
+/* Request a Visit Page  */
+
+.requestavisit {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.requestavisit h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+.requestavisit .btn {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #ffffff !important;
+  text-align: center !important;
+}
+.requestavisit .btn1 {
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.requestavisit .con-bg {
+  background: #ff00002f;
+  padding: 1.5rem;
+  border: #ff000069 3px solid;
+  border-radius: 1rem;
+}
+
+.requestavisit .whatsapp {
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+.requestavisit span {
+  background-color: transparent;
+  border-radius: 0.5rem !important;
+  margin: 0 !important;
+}
+
+.requestavisit a.whatsapp-btn {
+  background-color: #049604 !important;
+  border-radius: 5rem !important;
+  margin: 0 !important;
+
+}
+
+.requestavisit box-icon {
+  padding: 0 2rem !important;
+}
+
+/* Request a Visit Page  */
+
+/* Contact Us Page  */
+.contactus {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contactus .col-md-7 {
+  background-color: #fff;
+  border-bottom: #fc4746 3px solid;
+}
+
+.contactus .btn {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #ffffff !important;
+  text-align: center !important;
+}
+
+.contactus h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+.contactus .col-md-5 {
+  background: linear-gradient(#000000ad, #000000ad),
+    url(./Components/HomePage/img/background.png) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  padding-top: 2rem;
+}
+
+.contactus .contact-details {
+  margin-top: 2rem;
+}
+
+.contactus .contact-details a {
+  font-size: 18px !important;
+  color: #fff !important;
+}
+
+.contactus .boxicons .box-icon {
+  margin: 1rem;
+  padding: 0.4rem;
+  text-align: center !important;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.15s ease;
+  margin-bottom: 2rem !important;
+}
+
+.contactus .boxicons .box-icon:hover {
+  background-color: #fdcdcd;
+}
+
+/* Contact Us Page  */
+
+/* Terms and Condition  */
+
+.terms {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.terms h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+/* Terms and Condition  */
+
+/* Testimonials  */
+
+.testimonials {
+  /* margin-top: 5rem; */
+  background: #fff !important;
+  padding: 60px 60px;
+  color: #000 !important;
+}
+
+.testimonials .row {
+  justify-content: center !important;
+}
+
+.testimonials .card {
+  border-radius: 50px 0px 50px 0px !important;
+  background: whitesmoke;
+}
+
+.testimonials p {
+  font-size: smaller !important;
+}
+.testimonials h5 {
+  font-size: smaller !important;
+}
+
+.testimonials .carousel-control-prev-icon,
+.testimonials .carousel-control-next-icon {
+  background-color: #ff330052;
+  border-radius: 100% !important;
+  border: #ff3500 solid 1px;
+}
+
+.testimonials img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+/* Testimonials  */
+
+/* About Page */
+.aboutus {
+  padding-top: 5rem;
+  /* padding-bottom: 3rem; */
+  background: #fff !important;
+}
+
+.aboutus h4 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+.aboutus h6 {
+  font-weight: 100 !important;
+}
+
+.aboutus .col-md-11 {
+  padding: 3rem 2rem 8rem 2rem;
+}
+.aboutus .aaa {
+  background-color: #ffbcbc;
+  padding: 8rem 5rem;
+}
+
+.aboutus .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.aboutus .bbb {
+  background-color: #6e3939;
+  padding: 8rem 5rem;
+  color: #fff !important;
+}
+
+/* About Page */
+
+/* AdminPage  */
+
+/* Admin Dashboard  */
+.admindashboard {
+  margin-top: 5rem;
+}
+
+.admindashboard .bg-admin {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.admindashboard .details .card-body {
+  border-top: 0.3rem solid #e9ab00;
+}
+.admindashboard .details .card {
+  border-radius: 0 0 10px 10px;
+}
+
+.admindashboard .nav .card {
+  border-radius: 2rem;
+  padding: 1rem 0.5rem;
+  background-color: #fc4746;
+  color: #ffffff !important;
+}
+.admindashboard .nav .card:hover {
+  background-color: #df0202;
+}
+.admindashboard h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+/* Admin Dashboard  */
+
+/* Admin Login */
+
+.adminlogin {
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.adminlogin h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+.adminlogin button {
+  background-color: #fc4746;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.adminlogin label {
+  font-size: larger !important;
+}
+/* Admin Login */
+
+/* Admin All Property  */
+.adminproperty {
+  margin-top: 5rem;
+}
+
+.adminproperty h3 {
+  padding-top: 2rem;
+  color: #fc4746;
+}
+
+.adminproperty ::-webkit-scrollbar {
+  width: 10px !important;
+  height: 0.8rem !important;
+}
+.adminproperty ::-webkit-scrollbar-track {
+  border: none;
+  background-color: #f5e0e0;
+}
+.adminproperty ::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+}
+
+/* Admin All Property  */
+
+/* AdminPage  */
+
+/* Footer */
+.footer {
+  background-color: #111;
+}
+
+.footer h5 {
+  font-weight: 100 !important;
+}
+.footer button {
+  background-color: #fc4746;
+  border-radius: 50px;
+}
+
+.footer h6 {
+  color: #fc4746;
+}
+
+.footer-admin {
+  background-color: #111;
+}
+
+footer .boxicons .box-icon {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  text-align: center !important;
+  background-color: #fc4746;
+  border-radius: 50%;
+  transition: 0.15s ease;
+}
+
+footer .boxicons .box-icon:hover {
+  background-color: #cf1414;
+}
+
+/* Footer */
+
+/* Media Query for Mobile device */
+/* Media Query for Mobile device */
+
+@media screen and (max-width: 580px) {
+  /* Navbar */
+  nav .navbar-brand {
+    width: 50% !important;
+  }
+  nav img {
+    width: 45% !important;
+  }
+
+  /* Navbar */
+  /* Showcase  */
+  .showcase {
+    background: linear-gradient(#0000008c, #0000008c),
+      url(./Components/HomePage/img/IMG_8102.JPG) no-repeat center;
+    background-size: cover;
+  }
+
+  .showcase .showcase-content {
+    margin-top: 15vh;
+    text-align: center !important;
+  }
+
+  .showcase .about-content {
+    margin-top: 35vh;
+    text-align: center !important;
+  }
+
+  .showcase .showcase-content h1 {
+    text-align: center !important;
+  }
+
+  /* Showcase  */
+
+  /* Navbar  */
+  nav {
+    background-color: #0f0f0fe0 !important;
+
+    padding: 1.5rem 1rem !important;
+  }
+
+  nav .nav-item a {
+    margin: 1rem 1rem;
+  }
+  /* Navbar  */
+
+  /* Testimonials  */
+  .testimonials .carousel-control-prev-icon,
+  .testimonials .carousel-control-next-icon {
+    background-color: #ff3500;
+    margin-bottom: 20px;
+  }
+
+  /* About Page  */
+  .aboutus h5 {
+    text-align: justify !important;
+  }
+  /* About Page  */
+
+  /* How It Works  */
+  .howitworks .card2 .row {
+    flex-direction: column-reverse !important;
+  }
+  /* How It Works  */
+
+  /* Property Page  */
+  .propertysearch box-icon {
+    padding: 0 1rem !important;
+  }
+  /* Property Page  */
+}
+/* Media Query for Mobile device */
+/* Media Query for Mobile device */
