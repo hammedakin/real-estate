@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import PropertySearch from "../PropertySearch";
 import Navbar from "../../Navbar";
@@ -24,12 +24,12 @@ const Property = () => {
 
   return (
     <>
-      {/* <Helmet>
-        <meta charSet="utf-8" />
-        <title>{`Abulesowo - ${name}`}</title>
-        <link rel="icon" src={img1} />
+      <Helmet>
+        <title>{`${name}`}</title>
+        {/* <link rel="icon" src={img} /> */}
         <meta name="description" content={`${desc}`} />
-      </Helmet> */}
+        <link rel="apple-touch-icon" href={img} />
+      </Helmet>
       <Navbar />
       <PropertySearch />
       <section class="property">
